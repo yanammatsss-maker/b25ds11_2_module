@@ -299,6 +299,7 @@ body {
 }
 
 .square-1 {
+  overflow: hidden;
   position: absolute;
   width: 15.8vw;
   margin-top: 6.9vw;
@@ -307,235 +308,296 @@ body {
 }
 
 .square-2 {
+  overflow: hidden;
   position: absolute;
   width: 15.8vw;
   margin-top: 6.9vw;
   margin-left: 81vw;
-  animation: square-2 1s linear infinite;
+  animation: square-2 2s linear infinite;
 }
 
 .square-3 {
+  overflow: hidden;
   position: absolute;
   width: 15.8vw;
   margin-top: 28vw;
-  margin-left: 43vw;
+  margin-left: 40vw;
   animation: square-3 2s linear infinite;
 }
 
 .square-4 {
+  overflow: hidden;
   width: 15.8vw;
   position: absolute;
   margin-top: 55vw;
-  margin-left: 81vw;
+  margin-left: 59vw;
   animation: square-4 2s linear infinite;
 }
 
 .square-5 {
+  overflow: hidden;
   width: 15.8vw;
   position: absolute;
   margin-top: 55vw;
-  margin-left: 3.1vw;
-  animation: square-5 1s linear infinite;
+  margin-left: 25vw;
+  animation: square-5 2s linear infinite;
 }
 .cl1 {
+  position: absolute;
   font-family: "OpenSans";
   color: #ffffff;
-  font-size: 100px;
+  font-size: 7.8vw;
   font-weight: 400;
-  margin-top: 400px;
-  margin-left: 400px;
-  animation: cl1 3s linear infinite;
+  margin-top: 75vw;
+  margin-left: 28vw;
+  animation: cl1 4s linear infinite;
 }
 .cl2 {
+  position: absolute;
   font-family: "OpenSans";
   color: #a4ff00;
-  font-size: 100px;
+  font-size: 7.8vw;
   font-weight: 400;
-  margin-top: -100px !important;
-  margin-left: 40px;
-  animation: cl2 3s linear infinite;
+  margin-top: 81.5vw !important;
+  margin-left: 5vw;
+  animation: cl2 4s linear infinite;
 }
 .section-black {
   background-color: #000;
-  height: 850px;
+  height: 180vw;
   position: relative;
 }
 
+/* WHITEEEEEEEEEEEEEEEEEEE
+EEEEEEE
+EEEEEEEE
+eEEEEEEEEE */
+
 .white-2 {
+  position: absolute;
   background-color: #ffffff;
-  width: 582px;
-  height: 730px;
-  margin-top: -10px;
-  margin-left: 50px;
-  overflow: hidden;
+  width: 45vw;
+  height: 57vw;
+  margin-top: -0.7vw;
+  margin-left: 4vw;
 }
 .N {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 200px;
-  margin-top: -30px;
-  margin-left: 14px;
+  font-size: 15vw;
+  margin-top: -2.3vw;
+  margin-left: 1vw;
+  animation: N-blink 4s infinite;
 }
 .V {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 120px;
-  margin-top: -430px;
-  margin-left: 220px;
-
+  font-size: 9vw;
+  margin-top: -33vw;
+  margin-left: 17vw;
   transform: rotate(-20deg);
+  animation: V-blink 1s infinite;
 }
 .B {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 330px;
-  margin-top: -200px;
-  margin-left: 320px;
+  font-size: 25vw;
+  margin-top: -15vw;
+  margin-left: 25vw;
+  animation: B-blink 2s infinite;
 }
 .O {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 100px;
-  margin-top: -500px;
-  margin-left: 50px;
+  font-size: 8vw;
+  margin-top: -39vw;
+  margin-left: 4vw;
+  animation: O-blink 4s infinite;
 }
 .Z {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 230px;
-  margin-top: -300px;
-  margin-left: 180px;
+  font-size: 18vw;
+  margin-top: -23vw;
+  margin-left: 14vw;
   transform: rotate(-30deg);
+  animation: Z-blink 1.5s infinite;
 }
 .K {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 260px;
-  margin-top: -280px;
-  margin-left: 20px;
+  font-size: 18vw;
+  margin-top: -21vw;
+  margin-left: 1, 5vw;
+  animation: K-blink 1s infinite;
 }
 .U {
+  position: absolute;
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 100px;
-  margin-top: -310px;
-  margin-left: 250px;
+  font-size: 18vw;
+  margin-top: -23vw;
+  margin-left: 10vw;
+  animation: U-blink 2s infinite;
 }
 .e {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 140px;
-  margin-top: -400px;
-  margin-left: 290px;
+  font-size: 11vw;
+  margin-top: -33vw;
+  margin-left: 22vw;
+  animation: E-blink 4s infinite;
 }
 .R {
   font-family: "Drabina-Solid";
   color: #000;
-  font-size: 270px;
-  margin-top: -260px;
-  margin-left: 380px;
+  font-size: 21vw;
+  margin-top: -17vw;
+  margin-left: 29vw;
+  animation: R-blink 2.5s infinite;
 }
-.kvadrat-1 {
-  width: 70px;
-  height: 70px;
+
+.kvadrat1 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -980px;
-  margin-left: 80px;
+  font-size: 2vw;
+  margin-top: -73vw;
+  margin-left: 6vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat1-blink 0.8s infinite;
 }
-.kvadrat-2 {
-  width: 70px;
-  height: 70px;
+
+.kvadrat2 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -1020px;
-  margin-left: 400px;
+  font-size: 2vw;
+  margin-top: -79vw;
+  margin-left: 36vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat2-blink 1s infinite;
 }
-.kvadrat-3 {
-  width: 70px;
-  height: 70px;
+.kvadrat3 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -850px;
-  margin-left: 200px;
+  font-size: 2vw;
+  margin-top: -60.5vw;
+  margin-left: 19vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat3-blink 1s infinite;
 }
-.kvadrat-4 {
-  width: 70px;
-  height: 70px;
+.kvadrat4 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -800px;
-  margin-left: 420px;
+  font-size: 2vw;
+  margin-top: -63vw;
+  margin-left: 32vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat4-blink 2s infinite;
 }
-.kvadrat-5 {
-  width: 70px;
-  height: 70px;
+.kvadrat5 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -660px;
-  margin-left: 450px;
+  font-size: 2vw;
+  margin-top: -51vw;
+  margin-left: 38vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat5-blink 1s infinite;
 }
-.kvadrat-6 {
-  width: 70px;
-  height: 70px;
+.kvadrat6 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -740px;
-  margin-left: 60px;
+  font-size: 2vw;
+  margin-top: -54vw;
+  margin-left: 6vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat6-blink 2.5s infinite;
 }
-.kvadrat-7 {
-  width: 70px;
-  height: 70px;
+.kvadrat7 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -500px;
-  margin-left: 250px;
+  font-size: 2vw;
+  margin-top: -39vw;
+  margin-left: 24vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat7-blink 1s infinite;
 }
-.kvadrat-8 {
-  width: 70px;
-  height: 70px;
+.kvadrat8 {
+  width: 5vw;
+  height: 5vw;
   background-color: #a4ff00;
   font-family: "OpenSans", sans-serif;
-  font-size: 24px;
-  margin-top: -400px;
-  margin-left: 40px;
+  font-size: 2vw;
+  margin-top: -35vw;
+  margin-left: 3vw;
   position: absolute;
   color: #000;
   text-align: center;
-  line-height: 70px;
+  line-height: 5vw;
+  animation: kvadrat8-blink 0.8s infinite;
+}
+
+.zeleny {
+  position: absolute;
+  background-color: #a4ff00;
+  width: 44vw;
+  height: 57vw;
+  margin-top: -180.7vw;
+  margin-left: 52.2vw;
+  overflow: hidden;
+}
+.D {
+  position: absolute;
+  font-family: "Drabina-Solid";
+  font-size: 15vw;
+  margin-left: -30vw;
+  margin-top: 15vw;
+  animation: D-move 4s infinite ease-out;
+}
+.priamoug {
+  position: absolute;
+  width: 5vw;
+  height: 40vw;
+  background-color: #000;
+  top: 8.5vw;
+  left: 35vw;
+}
+.DVD {
+  width: 25vw;
+  margin-top: -10vw;
+  animation: DVD 6s linear infinite;
 }
