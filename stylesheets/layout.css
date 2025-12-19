@@ -1,2 +1,541 @@
+body {
+  width: 100vw;
+  display: block;
+  margin: 0 auto;
+  width: 100vw;
+}
+.section-1 {
+  background-color: black;
+  width: 100vw;
+  height: 78vw;
+}
+.typographic {
+  width: 93vw;
+  margin-left: 2vw;
+}
+.line-1 {
+  background: #a3f606;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100vw;
+  height: 11vw;
+  display: flex;
+  align-items: center;
+  font-family: "OpenSans";
+  font-size: 4.3vw;
+  font-weight: 800;
+}
+.line-1 span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: line-1 15s linear infinite;
+}
+.section-bl {
+  background-color: black;
+  height: 66vw;
+  margin-top: 2.7vw;
+}
 
+.section-wh {
+  background-color: white;
+  width: 45vw;
+  height: 57vw;
+  margin-left: 3.5vw;
+  margin-top: 4.7vw;
+  position: absolute;
+  overflow: hidden;
+}
+/* ЗЕЛЕНАЯ СЕКЦИЯ С КРУГОМ ВНУТРИ */
+.section-green {
+  background-color: #a4ff00;
+  width: 45vw;
+  height: 57vw;
+  margin-left: 51.5vw;
+  margin-top: -61.3vw;
+  position: absolute;
+  overflow: hidden;
+}
 
+.round-1 {
+  position: absolute;
+  width: 37vw;
+  margin-left: 3.7vw;
+  margin-top: 10vw;
+  animation: orbit-spin 8s linear infinite;
+  transform-origin: center center;
+}
+
+.round-2 {
+  position: absolute;
+  width: 29vw;
+  margin-top: 13.95vw;
+  margin-left: 7.65vw;
+  animation: counter-orbit 8s linear infinite;
+  transform-origin: center center;
+}
+
+.round-3 {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  background-color: #000;
+  margin-top: 30vw;
+  margin-left: 12.5vw;
+  animation: dvd-bounce 7s linear infinite;
+}
+.poster-1 {
+  width: 44vw;
+  margin-left: 0.2vw;
+  margin-top: 0.6vw;
+}
+.tag1 {
+  position: absolute;
+  top: 2.3vw;
+  left: 3.4vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag1-fall 5s linear infinite;
+}
+
+.tag2 {
+  position: absolute;
+  top: 5.4vw;
+  left: 29.6vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 3s linear infinite;
+}
+.tag3 {
+  position: absolute;
+  top: 0.8vw;
+  left: 19.5vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 7s linear infinite;
+}
+.tag4 {
+  position: absolute;
+  top: 5.4vw;
+  left: 9.3vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 4s linear infinite;
+}
+.tag5 {
+  position: absolute;
+  top: 15.6vw;
+  left: 1.6vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 3s linear infinite;
+}
+.tag6 {
+  position: absolute;
+  top: 31vw;
+  left: 31vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 5s linear infinite;
+}
+.tag7 {
+  position: absolute;
+  top: 4vw;
+  left: 40vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 5s linear infinite;
+}
+.tag8 {
+  position: absolute;
+  top: 6.6vw;
+  left: -5.5vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 8s linear infinite;
+}
+
+.tag9 {
+  position: absolute;
+  top: 40vw;
+  left: 8vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 8s linear infinite;
+}
+
+.tag10 {
+  position: absolute;
+  top: 20vw;
+  left: 34vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 8s linear infinite;
+}
+
+.tag11 {
+  position: absolute;
+  top: 12.4vw;
+  left: 32vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 8s linear infinite;
+}
+
+.tag12 {
+  position: absolute;
+  top: 29.4vw;
+  left: 29.4vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 3s linear infinite;
+}
+.tag13 {
+  position: absolute;
+  top: 23vw;
+  left: 17vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 8s linear infinite;
+}
+.tag14 {
+  position: absolute;
+  top: 22vw;
+  left: 50vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 8s linear infinite;
+}
+.tag15 {
+  position: absolute;
+  top: 3vw;
+  left: 12.9vw;
+  display: inline-block;
+  padding: 0.8vw 1vw;
+  background-color: #a4ff00;
+  color: #000;
+  font-family: "OpenSans";
+  font-weight: 600;
+  animation: tag2-fall 8s linear infinite;
+}
+
+.section-3 {
+  background-color: #000;
+  height: 108vw;
+}
+
+.line-2 {
+  background: #ffffff;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  height: 11vw;
+  display: flex;
+  align-items: center;
+  font-family: "OpenSans";
+  font-size: 4vw;
+  font-weight: 800;
+}
+.line-2 span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: line-2 15s linear infinite;
+}
+
+.square-1 {
+  position: absolute;
+  width: 15.8vw;
+  margin-top: 6.9vw;
+  margin-left: 3.1vw;
+  animation: square-1 2s linear infinite;
+}
+
+.square-2 {
+  position: absolute;
+  width: 15.8vw;
+  margin-top: 6.9vw;
+  margin-left: 81vw;
+  animation: square-2 1s linear infinite;
+}
+
+.square-3 {
+  position: absolute;
+  width: 15.8vw;
+  margin-top: 28vw;
+  margin-left: 43vw;
+  animation: square-3 2s linear infinite;
+}
+
+.square-4 {
+  width: 15.8vw;
+  position: absolute;
+  margin-top: 55vw;
+  margin-left: 81vw;
+  animation: square-4 2s linear infinite;
+}
+
+.square-5 {
+  width: 15.8vw;
+  position: absolute;
+  margin-top: 55vw;
+  margin-left: 3.1vw;
+  animation: square-5 1s linear infinite;
+}
+.cl1 {
+  font-family: "OpenSans";
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: 400px;
+  margin-left: 400px;
+  animation: cl1 3s linear infinite;
+}
+.cl2 {
+  font-family: "OpenSans";
+  color: #a4ff00;
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: -100px !important;
+  margin-left: 40px;
+  animation: cl2 3s linear infinite;
+}
+.section-black {
+  background-color: #000;
+  height: 850px;
+  position: relative;
+}
+
+.white-2 {
+  background-color: #ffffff;
+  width: 582px;
+  height: 730px;
+  margin-top: -10px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.N {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 200px;
+  margin-top: -30px;
+  margin-left: 14px;
+}
+.V {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 120px;
+  margin-top: -430px;
+  margin-left: 220px;
+
+  transform: rotate(-20deg);
+}
+.B {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 330px;
+  margin-top: -200px;
+  margin-left: 320px;
+}
+.O {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 100px;
+  margin-top: -500px;
+  margin-left: 50px;
+}
+.Z {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 230px;
+  margin-top: -300px;
+  margin-left: 180px;
+  transform: rotate(-30deg);
+}
+.K {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 260px;
+  margin-top: -280px;
+  margin-left: 20px;
+}
+.U {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 100px;
+  margin-top: -310px;
+  margin-left: 250px;
+}
+.e {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 140px;
+  margin-top: -400px;
+  margin-left: 290px;
+}
+.R {
+  font-family: "Drabina-Solid";
+  color: #000;
+  font-size: 270px;
+  margin-top: -260px;
+  margin-left: 380px;
+}
+.kvadrat-1 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -980px;
+  margin-left: 80px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
+.kvadrat-2 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -1020px;
+  margin-left: 400px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
+.kvadrat-3 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -850px;
+  margin-left: 200px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
+.kvadrat-4 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -800px;
+  margin-left: 420px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
+.kvadrat-5 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -660px;
+  margin-left: 450px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
+.kvadrat-6 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -740px;
+  margin-left: 60px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
+.kvadrat-7 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -500px;
+  margin-left: 250px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
+.kvadrat-8 {
+  width: 70px;
+  height: 70px;
+  background-color: #a4ff00;
+  font-family: "OpenSans", sans-serif;
+  font-size: 24px;
+  margin-top: -400px;
+  margin-left: 40px;
+  position: absolute;
+  color: #000;
+  text-align: center;
+  line-height: 70px;
+}
