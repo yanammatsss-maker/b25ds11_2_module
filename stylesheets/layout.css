@@ -373,7 +373,6 @@ EEEEEEE
 EEEEEEEE
 eEEEEEEEEE */
 
-
 .white-2 {
   position: absolute;
   background-color: #ffffff;
@@ -384,8 +383,8 @@ eEEEEEEEEE */
 }
 .white-2-group {
   position: absolute;
-  margin-top: 10vw;   
-  margin-left: 0.2vw;     
+  margin-top: 50vw;
+  margin-left: 0.2vw;
 }
 .N {
   font-family: "Drabina-Solid";
