@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Regular.ttf") format("truetype")
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype"),
     url("../fonts/OpenSans-Regular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Semibold.ttf") format("truetype")
+  src: url("../fonts/OpenSans-Semibold.ttf") format("truetype"),
     url("../fonts/OpenSans-Semibold.woff") format("woff");
   font-style: normal;
   font-weight: 600;
