@@ -313,7 +313,7 @@ body {
   width: 15.8vw;
   margin-top: 6.9vw;
   margin-left: 81vw;
-  animation: square-2 2s linear infinite;
+  animation: square-2 1.5s linear infinite;
 }
 
 .square-3 {
@@ -349,7 +349,7 @@ body {
   font-size: 7.8vw;
   font-weight: 400;
   margin-top: 75vw;
-  margin-left: 28vw;
+  margin-left: 35vw;
   animation: cl1 4s linear infinite;
 }
 .cl2 {
@@ -359,12 +359,12 @@ body {
   font-size: 7.8vw;
   font-weight: 400;
   margin-top: 81.5vw !important;
-  margin-left: 5vw;
+  margin-left: 0.2vw;
   animation: cl2 4s linear infinite;
 }
 .section-black {
   background-color: #000;
-  height: 180vw;
+  height: 142vw;
   position: relative;
 }
 
@@ -576,7 +576,7 @@ eEEEEEEEEE */
   background-color: #a4ff00;
   width: 44vw;
   height: 57vw;
-  margin-top: -180.7vw;
+  margin-top: -142.7vw;
   margin-left: 52.2vw;
   overflow: hidden;
 }
@@ -600,4 +600,16 @@ eEEEEEEEEE */
   width: 25vw;
   margin-top: -10vw;
   animation: DVD 6s linear infinite;
+}
+.futer {
+  position: absolute;
+  background-color: #a4ff00;
+  height: 26vw;
+  width: 100vw;
+}
+.chance {
+  width: 98vw;
+  margin-top: 3.5vw;
+  margin-left: 1vw;
+  animation: blink 1s infinite;
 }
